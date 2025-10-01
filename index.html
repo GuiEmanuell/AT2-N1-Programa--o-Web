@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Heróis</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        
+        <div id="tela-boasvindas" class="tela ativa">
+            <div class="secao-heroi">
+                <h1 class="titulo-principal">Bem-vindo ao Universo Marvel!</h1>
+                <div class="descricao-universo">
+                    <p>Em um mundo onde heróis enfrentam ameaças cósmicas e dilemas humanos, você está prestes a descobrir qual deles vive dentro de você.</p>
+                    <p>Será que sua mente é tão afiada quanto a de <strong>Doutor Estranho</strong>? Ou sua coragem se iguala à da <strong>Viúva Negra</strong>?</p>
+                    <p>Responda às perguntas e descubra se você é o <strong>Homem de Ferro</strong>, <strong>Deadpool</strong>, <strong>Homem-Aranha</strong> ou outro ícone dos Vingadores.</p>
+                </div>
+                <button id="btn-iniciar-quiz" class="botao-iniciar">Iniciar Jornada</button>
+            </div>
+        </div>
+
+        <div id="tela-quiz" class="tela">
+            <div class="container-quiz">
+                <div class="barra-progresso">
+                    <div class="preenchimento-progresso" id="preenchimento-progresso"></div>
+                </div>
+                <div class="contador-pergunta">
+                    <span id="pergunta-atual">1</span> de <span id="total-perguntas">10</span>
+                </div>
+                
+                <div class="secao-pergunta">
+                    <h2 id="texto-pergunta" class="titulo-pergunta"></h2>
+                    <div id="container-opcoes" class="container-opcoes"></div>
+                </div>
+                
+                <div class="botoes-navegacao">
+                    <button id="btn-anterior" class="botao-navegacao" disabled>Anterior</button>
+                    <button id="btn-proxima" class="botao-navegacao" disabled>Próxima</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="tela-resultado" class="tela">
+            <div class="container-resultado">
+                <h1 class="titulo-resultado">Seu Herói Marvel é:</h1>
+                <div class="card-personagem">
+                    <div class="imagem-personagem">
+                        <img id="img-personagem" src="" alt="Personagem">
+                    </div>
+                    <div class="info-personagem">
+                        <h2 id="nome-personagem" class="nome-personagem"></h2>
+                        <div class="exibicao-pontuacao">
+                            <span>Pontuação: </span>
+                            <span id="pontuacao-personagem" class="valor-pontuacao"></span>
+                        </div>
+                        <p id="descricao-personagem" class="descricao-personagem"></p>
+                    </div>
+                </div>
+                <div class="acoes-resultado">
+                    <button id="btn-refazer" class="botao-refazer">Refazer Quiz</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
