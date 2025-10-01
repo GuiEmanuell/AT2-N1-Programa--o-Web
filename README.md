@@ -6,7 +6,7 @@ Neste quiz com 10 perguntas, suas respostas vão revelar se você é mais como:
 
 🤖Homem de Ferro
 
-⚔Deadpool
+💢Deadpool
 
 🕷️Viúva Negra
 
