@@ -98,8 +98,6 @@ class Quiz {
     
     }
 
-
-
 const personagens = [
     new Personagem("Doutor Estranho", "Suas respostas revelam uma mente brilhante e analítica, sempre em busca de conhecimento e soluções além do convencional, você é a linha de defesa contra ameaças que a maioria das pessoas nem sabe que existem - equilibrando múltiplas realidades e tomando decisões impossíveis para proteger o mundo como o conhecemos.", 'https://cdn.discordapp.com/attachments/1295743227206434857/1423001708442816553/0a3d493a94ecf81dbf85fb0dc82b2afd.png?ex=68deb91d&is=68dd679d&hm=6b44147e4cefca84c86d415bf2fed47db51db313f6dd30ed1d3bbc02a04579f1&'),
     new Personagem("Viúva Negra", "Suas respostas revelam um perfil estratégico, resiliente e altamente tático, você é a pessoa em quem os outros confiam nas situações mais perigosas - não por superpoderes, mas por sua inteligência, habilidades e determinação inabaláveis.", 'https://cdn.discordapp.com/attachments/1295743227206434857/1423003518083666064/Ilustracao.png?ex=68debacc&is=68dd694c&hm=20feab3475770b5c6e9341b8d6e98a257c62f41e37183f0d66779b95db5557e2&'),
