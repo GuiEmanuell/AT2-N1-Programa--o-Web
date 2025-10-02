@@ -192,5 +192,4 @@ document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('btn-anterior').onclick = () => quiz.perguntaAnterior();
     document.getElementById('btn-proxima').onclick = () => quiz.proximaPergunta();
     document.getElementById('btn-refazer').onclick = () => quiz.reiniciarQuiz();
-    document.getElementById('btn-compartilhar').onclick = () => quiz.compartilharResultado();
 });
