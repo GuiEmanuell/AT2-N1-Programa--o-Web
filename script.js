@@ -94,8 +94,7 @@ class Quiz {
         this.respostas = Array(this.perguntas.length).fill(null);
         this.mostrarTela('tela-boasvindas');
     }
-    
-    }
+}
 
 const personagens = [
     new Personagem("Doutor Estranho", "Suas respostas revelam uma mente brilhante e analítica, sempre em busca de conhecimento e soluções além do convencional, você é a linha de defesa contra ameaças que a maioria das pessoas nem sabe que existem - equilibrando múltiplas realidades e tomando decisões impossíveis para proteger o mundo como o conhecemos.", 'https://cdn.discordapp.com/attachments/1295743227206434857/1423001708442816553/0a3d493a94ecf81dbf85fb0dc82b2afd.png?ex=68deb91d&is=68dd679d&hm=6b44147e4cefca84c86d415bf2fed47db51db313f6dd30ed1d3bbc02a04579f1&'),
