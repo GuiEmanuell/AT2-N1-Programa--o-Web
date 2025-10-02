@@ -95,18 +95,9 @@ class Quiz {
         this.mostrarTela('tela-boasvindas');
     }
 
-    compartilharResultado() {
-        const nome = document.getElementById('nome-personagem').textContent;
-        const textoCompartilhar = `Descobri que meu herói Marvel é ${nome}! Faça o quiz e descubra o seu também!`;
-        if (navigator.share) {
-            navigator.share({ title: 'Meu Herói Marvel', text: textoCompartilhar, url: window.location.href });
-        } else {
-            navigator.clipboard.writeText(textoCompartilhar + ' ' + window.location.href)
-                .then(() => alert('Resultado copiado para a área de transferência!'))
-                .catch(() => alert('Não foi possível copiar o resultado.'));
-        }
+    
     }
-}
+
 
 
 const personagens = [
