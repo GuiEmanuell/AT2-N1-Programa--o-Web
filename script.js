@@ -94,7 +94,6 @@ class Quiz {
         this.respostas = Array(this.perguntas.length).fill(null);
         this.mostrarTela('tela-boasvindas');
     }
-
     
     }
 
